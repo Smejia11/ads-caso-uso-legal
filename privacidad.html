@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Política de privacidad · ads-caso-uso-dev</title>
+  <meta name="description" content="Política de privacidad de la aplicación ads-caso-uso-dev.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <p class="eyebrow">ads-caso-uso-dev</p>
+    <h1>Política de privacidad</h1>
+    <p class="meta">Última actualización: 2 de noviembre de 2026</p>
+
+    <section>
+      <h2>1. Qué es esta aplicación</h2>
+      <p>
+        <strong>ads-caso-uso-dev</strong> es una herramienta interna de desarrollo, operada por
+        Santiago Mejía Ads, que usa la Marketing API de Meta para crear y administrar campañas
+        publicitarias en cuentas publicitarias y Páginas de Facebook propias del operador.
+        No está dirigida al público ni ofrece inicio de sesión a terceros.
+      </p>
+    </section>
+
+    <section>
+      <h2>2. Datos que se tratan</h2>
+      <p>La aplicación solo accede a los datos que el propio operador autoriza en Meta:</p>
+      <ul>
+        <li>Identificadores y configuración de sus cuentas publicitarias (nombre, moneda, zona horaria, estado).</li>
+        <li>Identificadores y nombre de las Páginas de Facebook que administra.</li>
+        <li>Objetos publicitarios que la aplicación crea: campañas, conjuntos de anuncios, creativos, anuncios e imágenes.</li>
+        <li>El identificador de acceso (token) emitido por Meta para el operador.</li>
+      </ul>
+      <p>
+        La aplicación <strong>no recopila datos personales de usuarios finales</strong>, no lee
+        mensajes, publicaciones de terceros ni listas de amigos, y no usa cookies ni rastreadores.
+      </p>
+    </section>
+
+    <section>
+      <h2>3. Para qué se usan</h2>
+      <p>
+        Exclusivamente para crear, consultar y eliminar objetos publicitarios en las cuentas del
+        operador, y para probar integraciones con la Marketing API. Los datos no se venden, no se
+        ceden a terceros y no se usan para perfilar personas.
+      </p>
+    </section>
+
+    <section>
+      <h2>4. Dónde se guardan y por cuánto tiempo</h2>
+      <p>
+        Los objetos publicitarios residen en los sistemas de Meta. El token de acceso y el secreto
+        de la aplicación se guardan únicamente en el equipo del operador, en un archivo local que
+        no se publica ni se versiona. La aplicación no mantiene una base de datos propia. Los tokens
+        caducan según las reglas de Meta y pueden revocarse en cualquier momento.
+      </p>
+    </section>
+
+    <section>
+      <h2>5. Seguridad</h2>
+      <p>
+        Todas las llamadas a Meta viajan cifradas por HTTPS, se firman con <code>appsecret_proof</code>
+        y el token se envía en una cabecera, nunca en la URL. Los secretos se ocultan en cualquier
+        registro o mensaje de error.
+      </p>
+    </section>
+
+    <section id="eliminacion">
+      <h2>6. Eliminación de datos</h2>
+      <p>
+        Puedes pedir la eliminación de cualquier dato asociado a esta aplicación siguiendo las
+        <a href="eliminacion-datos.html">instrucciones de eliminación de datos</a>.
+      </p>
+    </section>
+
+    <section>
+      <h2>7. Contacto</h2>
+      <p>Para cualquier consulta sobre privacidad: <a href="mailto:santiago.mejia.oquendo1@gmail.com">santiago.mejia.oquendo1@gmail.com</a></p>
+    </section>
+
+    <section>
+      <h2>8. Cambios</h2>
+      <p>Si esta política cambia, se publicará aquí con una nueva fecha de actualización.</p>
+    </section>
+  </main>
+</body>
+</html>
